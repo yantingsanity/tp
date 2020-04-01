@@ -227,7 +227,7 @@ When the user attempts to reduce the quantity of ingredient at index 1 of the in
 4. The details will then be printed onto the console using `Ui#showResultToUser(result)`.
 
 ##### Design Considerations
-Aspect 1: How to differentiate `deleteingredientByQuantity` and `deleteIngredient` <br>
+Aspect 1: How to differentiate `deleteIngredientByQuantity` and `deleteIngredient` <br>
 <br>
 Alternative 1: The `quantity` of ingredient in `DeleteIngredientCommand` constructor is set to the `quantity` that was inputted by the user. In the case where the user would like to delete an ingredient, the `quantity` variable will be set to `null`. (Current Choice)
 
