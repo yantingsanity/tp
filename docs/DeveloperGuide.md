@@ -53,6 +53,9 @@ By: `CS2113T-M16-2` Since: `2020`
       - [F.6. Saving data](#f6-saving-data)
 
 ## 1. Introduction
+Our Project, Kitchen Helper is a kitchen application that is designed to facilitate users to track kitchen inventory effectively. KitchenHelper also enables users to create recipes with different ingredients and allows auto deduction when you cook using the recipe. Kitchen Helper also provides prompts when your ingredient is running low or even chores that should be completed by a deadline.      
+
+It is optimised for those who prefer working with Command Line Interface (CLI). Kitchen Helper provides convenience in our often busy lives.
 ### 1.1. Purpose
 The document contains the specified architecture and software design specifications for the application, Kitchen Helper. 
 ### 1.2. Scope
